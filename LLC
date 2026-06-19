@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LoksResellz</title>
+
+<style>
+body {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#050505;
+    color:white;
+}
+
+header {
+    height:80px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 50px;
+    background:#0d0d0d;
+}
+
+.logo {
+    font-size:30px;
+    font-weight:bold;
+    color:#d4af37;
+}
+
+nav a {
+    color:white;
+    text-decoration:none;
+    margin:20px;
+}
+
+.hero {
+    height:500px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    background:
+    linear-gradient(#0009,#0009),
+    url("https://images.unsplash.com/photo-1542291026-7eec264c27ff");
+    background-size:cover;
+}
+
+.hero h1 {
+    font-size:70px;
+}
+
+.hero span {
+    color:#d4af37;
+}
+
+button {
+    background:#d4af37;
+    border:none;
+    padding:15px 30px;
+    border-radius:20px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+
+.products {
+    padding:50px;
+    text-align:center;
+}
+
+.cards {
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+
+.card {
+    background:#111;
+    width:250px;
+    padding:20px;
+    border-radius:20px;
+}
+
+.card img {
+    width:100%;
+    border-radius:15px;
+}
+
+
+.price {
+    color:#d4af37;
+    font-size:25px;
+}
+
+
+footer {
+    background:#111;
+    text-align:center;
+    padding:30px;
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+LOKSRESELLZ
+</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Shop</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+
+
+<section class="hero">
+
+<div>
+
+<h1>
+LOKS<span>RESELLZ</span>
+</h1>
+
+<p>
+Quality Finds. Better Prices.
+</p>
+
+<button>
+Shop Now
+</button>
+
+</div>
+
+</section>
+
+
+
+
+<section class="products">
+
+<h1>🔥 Latest Drops</h1>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff">
+
+<h2>Rare Sneakers</h2>
+
+<p class="price">
+$120
+</p>
+
+<button>
+Buy
+</button>
+
+</div>
+
+
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab">
+
+<h2>Streetwear</h2>
+
+<p class="price">
+$60
+</p>
+
+<button>
+Buy
+</button>
+
+</div>
+
+
+
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30">
+
+<h2>Accessories</h2>
+
+<p class="price">
+$40
+</p>
+
+<button>
+Buy
+</button>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+<footer>
+
+<h2>
+LOKSRESELLZ
+</h2>
+
+<p>
+Follow us:
+</p>
+
+<p>
+Instagram: @loksresells
+</p>
+
+<p>
+TikTok: @loksresellz
+</p>
+
+
+</footer>
+
+
+</body>
+</html>
